@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:padding="10dp"
+              android:layout_width="match_parent"
+              android:background="#505050"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+
+    <com.spark.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:auto_cycle="true"
+        app:corner_radius="20"
+        app:period="1000"
+        app:delay="0"
+        app:error_image="@drawable/error"
+        app:selected_dot="@drawable/default_selected_dot"
+        app:unselected_dot="@drawable/default_unselected_dot" />
+
+</LinearLayout>
