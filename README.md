@@ -8,14 +8,14 @@
 <p>You can set corner radius images.</p>
 </br>
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ImageSlideshow-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7587)
+
 [![license](https://img.shields.io/github/license/denzcoskun/imageslideshow.svg?style=popout)](https://opensource.org/licenses/Apache-2.0)
-[![](https://jitpack.io/v/denzcoskun/ImageSlideshow.svg)](https://jitpack.io/#denzcoskun/ImageSlideshow)
+[![](https://jitpack.io/v/denzcoskun/ImageSlideshow.svg)](https://jitpack.io/#satputekuldip/AndroidxImageSlideShow)
 
 ## Usage
 - Add ImageSlider to your **layout**
 ```xml
-<spark.imageslider.ImageSlider
+<com.spark.imageslider.ImageSlider
         android:id="@+id/image_slider"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
@@ -66,12 +66,15 @@ allprojects {
 }
 
 dependencies {
-	implementation 'com.github.denzcoskun:ImageSlideshow:0.0.4'
+	implementation 'com.github.satputekuldip:AndroidxImageSlideShow:1.0.0'
 }
 ```
+
+## Originally Forked From 
+<a href="https://github.com/denzcoskun/ImageSlideshow">denzcoskun/ImageSlideshow</a>
 ## License
 ```
-Copyright 2019 Deniz Coşkun
+Copyright 2019 Satpute Kuldip
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
